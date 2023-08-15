@@ -349,22 +349,31 @@ div#txt {
 .today-weather ul li:nth-child(5) {
   border-bottom: none;
 }
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  padding: 0.5rem 3%;
+  background: rgb(159, 212, 231);
+  color: aliceblue;
+  position:relative;
+
+
+}
+.footer-text,
+.footer-iconTop {
+  position: relative;
+}
+
+.footer-text p {
+  font-size: 1.6rem;
+}
+
 
 .footer {
   padding-bottom: 20px;
-}
-
-.copyright p {
-  color: #fff;
-}
-
-.copyright p a {
-  color: #fff;
-}
-/*--w3layouts--*/
-/*--agileits--*/
-.copyright p a:hover {
-  color: #ffeb3b;
 }
 
 /*-- //Index-Page-Styling --*/
